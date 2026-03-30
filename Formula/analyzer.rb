@@ -1,7 +1,7 @@
 class Analyzer < Formula
   desc "CLI for Exein Analyzer - firmware and container security scanning"
   homepage "https://github.com/exein-io/analyzer-cli"
-  version "0.2.0"
+  version "0.2.2"
   license "Apache-2.0"
 
   on_macos do
@@ -23,8 +23,8 @@ class Analyzer < Formula
     end
 
     on_intel do
-      url "https://github.com/exein-io/analyzer-cli/releases/download/v0.2.0/analyzer-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "37619eddede50f813a2699be86a9dd1b65f6849bc605f32a8f4fb93e08201e4b"
+      url "https://github.com/exein-io/analyzer-cli/releases/download/v0.2.2/analyzer-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "53b2cbff646fa09d170f70f25cdad59322b9562832f67d2ea380acddb9832e0a"
     end
   end
 
