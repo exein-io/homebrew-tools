@@ -1,30 +1,30 @@
 class Analyzer < Formula
   desc "CLI for Exein Analyzer - firmware and container security scanning"
   homepage "https://github.com/exein-io/analyzer-cli"
-  version "0.2.2"
+  version "0.3.0"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
       url "https://github.com/exein-io/analyzer-cli/releases/download/v0.2.2/analyzer-aarch64-apple-darwin.tar.gz"
-      sha256 "4583ffb44963bb8f69d100919743e711ea9a47c89bdbd8c08cb302c18dfd6646"
+      sha256 "2a302bbfdebd38f61f8877ddaaa07f21787e3799658929f47da5d9e867684967"
     end
 
     on_intel do
       url "https://github.com/exein-io/analyzer-cli/releases/download/v0.2.2/analyzer-x86_64-apple-darwin.tar.gz"
-      sha256 "2a696dd7c6a64ea20518e61fa645b7a58804b65557eb3d9a9c267d1029d51457"
+      sha256 "12cf032647bc0cc8b65008f5f3e367142b48450e9b4c4818c31654e3a76f5810"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/exein-io/analyzer-cli/releases/download/v0.2.2/analyzer-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "5da315f2f2f890eee6eaba6b08750089973c216668d2c2acba37cc7543bb7531"
+      sha256 "7d5881380df1f395f73f25f0ae7380b7c4b2fd9b99134a789df7c58795c21238"
     end
 
     on_intel do
       url "https://github.com/exein-io/analyzer-cli/releases/download/v0.2.2/analyzer-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "53b2cbff646fa09d170f70f25cdad59322b9562832f67d2ea380acddb9832e0a"
+      sha256 "91de39abb7a7a483c71dbe9a5522d05ab625a72942eaf7f8d3deafc6c4195159"
     end
   end
 
