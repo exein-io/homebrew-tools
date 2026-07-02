@@ -3,7 +3,7 @@
 set -e
 
 REPO="exein-io/homebrew-tools"
-RELEASE_TAG="analyzer-cli-0.4.1"
+RELEASE_TAG="analyzer-cli-v0.5.0"
 TMP_DIR="./tmp-dir"
 
 rm -r "$TMP_DIR" || true
@@ -12,9 +12,6 @@ mkdir -p "$TMP_DIR"
 cd "$TMP_DIR"
 
 gh release download "$RELEASE_TAG"
-
-
-
 
 for target in \
   analyzer-aarch64-apple-darwin \
