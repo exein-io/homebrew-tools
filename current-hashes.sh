@@ -3,7 +3,7 @@
 set -e
 
 REPO="exein-io/homebrew-tools"
-RELEASE_TAG="analyzer-cli-v0.5.0"
+RELEASE_TAG="analyzer-cli-v0.5.1"
 TMP_DIR="./tmp-dir"
 
 rm -r "$TMP_DIR" || true

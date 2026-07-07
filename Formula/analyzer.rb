@@ -6,25 +6,25 @@ class Analyzer < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/exein-io/homebrew-tools/releases/download/analyzer-cli-v0.5.0/analyzer-aarch64-apple-darwin.tar.gz"
-      sha256 "5c61d70c80957ea7916e8343d5dae0c0a051ef875010ef4d587a485d52755003"
+      url "https://github.com/exein-io/homebrew-tools/releases/download/analyzer-cli-v0.5.1/analyzer-aarch64-apple-darwin.tar.gz"
+      sha256 "6c3da368acc4acb1b8e89ea9539d6f69d6dc7b41ca8cd7910538bca5000b67eb"
     end
 
     on_intel do
-      url "https://github.com/exein-io/homebrew-tools/releases/download/analyzer-cli-v0.5.0/analyzer-x86_64-apple-darwin.tar.gz"
-      sha256 "3be0f919106e420eac8fea87d364539f610282b93083ba712af6387880411c1f"
+      url "https://github.com/exein-io/homebrew-tools/releases/download/analyzer-cli-v0.5.1/analyzer-x86_64-apple-darwin.tar.gz"
+      sha256 "fd6694b821216b2ddbc9d8163979b80959fad192a723b63cd2fabe96b4ed9721"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/exein-io/homebrew-tools/releases/download/analyzer-cli-v0.5.0/analyzer-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "a43fb3c9ed18d592cf41ac00e9de0903b70a6744e547d41ee96975dfc974dcf0"
+      url "https://github.com/exein-io/homebrew-tools/releases/download/analyzer-cli-v0.5.1/analyzer-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "9c52f9ecb4424873ca1fcb82930075c01e3cc97ddc563362e1e6d553aa89ef4d"
     end
 
     on_intel do
-      url "https://github.com/exein-io/homebrew-tools/releases/download/analyzer-cli-v0.5.0/analyzer-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "33d26248c7650c44f25ded9a26194a463859bcd0157509b0bcbd18f0850920cb"
+      url "https://github.com/exein-io/homebrew-tools/releases/download/analyzer-cli-v0.5.1/analyzer-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "07c62b8698ee349a43c1b94eba09fd611971250754545490a0ecbb25b62d0f6e"
     end
   end
 
