@@ -1,7 +1,7 @@
 class Analyzer < Formula
   desc "CLI for Exein Analyzer - firmware and container security scanning"
   homepage "https://github.com/exein-io/homebrew-tools"
-  version "0.5.0"
+  version "0.5.1"
   license "Apache-2.0"
 
   on_macos do
