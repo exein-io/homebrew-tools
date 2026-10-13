@@ -33,6 +33,6 @@ class Analyzer < Formula
   end
 
   test do
-    assert_match "analyzer-cli", shell_output("#{bin}/analyzer --version")
+    assert_match "analyzer #{version}", shell_output("#{bin}/analyzer --version")
   end
 end
