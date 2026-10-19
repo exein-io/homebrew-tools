@@ -3,7 +3,9 @@
 set -e
 
 REPO="exein-io/homebrew-tools"
-RELEASE_TAG="analyzer-cli-v0.6.0"
+# The release the formula points at, so this never names an older one.
+VERSION=$(sed -n 's/^[[:space:]]*version "\([^"]*\)".*/\1/p' "$(dirname "$0")/Formula/analyzer.rb")
+RELEASE_TAG="analyzer-cli-v${VERSION:?cannot read the version of Formula/analyzer.rb}"
 TMP_DIR="./tmp-dir"
 
 rm -r "$TMP_DIR" || true
